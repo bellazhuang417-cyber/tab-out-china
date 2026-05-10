@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Tab Out - 国内版",
+  "name": "标签收纳师",
   "version": "3.0.0",
-  "description": "Tab Out 国内浏览器适配版。点击图标打开标签页管理面板，按域名分组管理，支持固定快捷方式栏。",
+  "description": "按网站分组管理标签页，固定常用快捷方式，智能检测重复标签。告别标签堆积，找回清爽浏览器。",
   "permissions": ["tabs", "activeTab", "storage", "history"],
   "background": { "service_worker": "background.js" },
   "action": {
-    "default_title": "Tab Out - 标签管理",
+    "default_title": "标签收纳师",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",

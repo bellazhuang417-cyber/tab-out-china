@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="extension/icons/icon128.png" alt="Tab Out Logo" width="80" height="80">
+  <img src="extension/icons/icon128.png" alt="标签收纳师 Logo" width="80" height="80">
 </p>
 
-<h1 align="center">Tab Out - 国内版</h1>
+<h1 align="center">标签收纳师</h1>
 
 <p align="center">
   告别标签堆积，一键管理你的浏览器标签页<br>
@@ -64,7 +64,7 @@
    - 360：地址栏输入 `se://extensions`
 3. 开启右上角 **开发者模式**
 4. 点击 **「加载已解压的扩展程序」**，选择解压后的 `extension/` 文件夹
-5. 安装完成！点击工具栏上的 **Tab Out 图标** 即可使用
+5. 安装完成！点击工具栏上的 **标签收纳师图标** 即可使用
 
 > 安装后新标签页不会有变化，请点击工具栏图标来打开面板。
 
@@ -86,7 +86,7 @@
 
 ## 致谢
 
-基于 [zarazhangrui/tab-out](https://github.com/zarazhangrui/tab-out) 及 [bellazhuang417-cyber/tab-out-pinned](https://github.com/bellazhuang417-cyber/tab-out-pinned) 改造。
+本插件灵感来源于博主 [Zara Zhang](https://github.com/zarazhangrui) 的开源项目 [Tab Out](https://github.com/zarazhangrui/tab-out)，在其基础上针对国产浏览器做了适配改造，并新增了快捷固定栏、智能推荐、稍后阅读等功能。
 
 ## 许可证
 
