@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab Out</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+    <div class="popup-header">
+      <div class="header-info">
+        <h1 id="greeting"></h1>
+        <div class="date" id="dateDisplay"></div>
+      </div>
+      <div class="header-stats">
+        <span class="stat-badge" id="statBadge">
+          <span class="stat-num" id="statTabs">0</span> 个标签页
+        </span>
+      </div>
+    </div>
+
+    <div class="pinned-bar" id="pinnedBar"></div>
+
+    <div class="popup-tabs" id="popupTabs">
+      <!-- 动态填充 -->
+    </div>
+
+    <div class="popup-empty" id="popupEmpty" style="display:none">
+      <p>没有打开的标签页</p>
+    </div>
+
+    <div class="popup-actions">
+      <button class="action-btn primary" id="btnOpenDashboard">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+        </svg>
+        打开完整面板
+      </button>
+      <button class="action-btn danger" id="btnCloseAll" style="display:none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+        关闭全部
+      </button>
+    </div>
+
+    <div class="popup-footer">
+      <span>基于 <a href="https://github.com/zarazhangrui/tab-out" target="_blank">Tab Out</a> 改造 · 国内版</span>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
