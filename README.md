@@ -17,7 +17,6 @@
 
 点击工具栏图标即可弹出，快速查看和管理标签页。
 
-<!-- TODO: 替换为真实截图 -->
 <p align="center">
   <img src="screenshots/popup.png" alt="Popup 面板" width="360">
 </p>
@@ -26,7 +25,6 @@
 
 查看所有标签页、稍后阅读、重复标签检测，一个页面搞定。
 
-<!-- TODO: 替换为真实截图 -->
 <p align="center">
   <img src="screenshots/dashboard.png" alt="Dashboard 面板" width="600">
 </p>
